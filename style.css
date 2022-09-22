@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.small-image img{
+    height: 100px;
+   margin: 10px 0;
+   cursor: pointer;
+   display: block;
+   opacity: 0.6;
+   
+}
+
+.small-image {
+    float: left;
+}
+
+.small-image img:hover{
+    opacity: 1;
+}
+
+
+
+.main-image img{
+    height: 500px;
+    width: 450px;
+    border-radius: 5px;
+}
+
+.main-image{
+    float: right;
+    padding: 10px;
+}
+
+.product{
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+   padding: 10px;
+    border: 3px solid blue;
+    border-radius: 5px;
+}
